@@ -12,7 +12,7 @@ int main()
     double height = 1.7;
     char initial = 'A';
     bool isStudent = true;
-    
+
     cout << "\n\t\t     -------- Initial Information --------" << endl;
     cout << "\n\t\t     Full Name: " << fullName << endl;
     cout << "\t\t     Your Age: " << age << endl;

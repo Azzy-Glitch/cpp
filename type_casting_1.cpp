@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    cout << fixed << setprecision(1);
-    cout << "static_cast<double>(25) = "
-         << static_cast<double>(25)
-         << endl;
+    int a = 92.75;
+    cout << fixed << setprecision(2);
+    double x = static_cast<double>(a);
+    cout << "static_cast<double>(a) = " << x << endl;
     return 0;
 }
